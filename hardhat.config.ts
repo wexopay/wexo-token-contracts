@@ -29,6 +29,14 @@ const config: HardhatUserConfig = {
             url: "https://polygon-mainnet.g.alchemy.com/v2/" + process.env.ALCHEMY_API_KEY,
             accounts: [process.env.WALLET_PRIVATE_KEY_PROD!]
         },
+        base_stg: {
+            url: "https://base-sepolia.g.alchemy.com/v2/" + process.env.ALCHEMY_API_KEY,
+            accounts: [process.env.WALLET_PRIVATE_KEY_STG!]
+        },
+        base_prod: {
+            url: "https://base-mainnet.g.alchemy.com/v2/" + process.env.ALCHEMY_API_KEY,
+            accounts: [process.env.WALLET_PRIVATE_KEY_PROD!]
+        },
     },
     etherscan: {
         apiKey: {

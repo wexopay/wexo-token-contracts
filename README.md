@@ -19,6 +19,8 @@ npx hardhat run scripts/deploy-wexo-token.ts --network NETWORK
 - `polygon_prod` - Polygon Mainnet
 - `ethereum_stg` - Ethereum Sepolia
 - `ethereum_prod` - Ethereum Mainnet
+- `base_stg` - Base Sepolia
+- `base_prod` - Base Mainnet
 
 
 ## Verify contract
@@ -39,6 +41,9 @@ npx hardhat test
   - Ethereum Goerli: 0x7c5Ed75f1bBf22458EE60440900196Ce95347A9D
   - Ethereum Sepolia: 0xCc34FC6fe0967692dE58a4cdCb4Ce55f8C3Ca28F
   - Ethereum Mainnet: 0xf31698DDAd0d11160Fe85c500397A470CD3d492E
+  - Base Sepolia: 0xAd1f1FB5bfA6CdC45aac42c9A4B9A4DB07721E56
+  - Base (bridge): 0xAc12F930318Be4F9d37f602cBF89CD33E99aa9D4
+  - Base Sepolia (bridge): 0x1bc452D1a1815Df0fce5BB74297E26Fd499Ccf92
 
 
 - WexoVestingTeamAndAdvisors:
